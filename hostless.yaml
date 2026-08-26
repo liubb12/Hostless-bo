@@ -2,5 +2,5 @@ build:
   system: docker
 
 dockerfile_path: ./Dockerfile
-working_directory: /tmp
-start_command: "node index.js"
+
+start_command: "node /tmp/index.js"
