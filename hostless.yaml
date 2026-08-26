@@ -1,7 +1,6 @@
 build:
   system: docker
-  dockerfile_path: ./Dockerfile
 
+dockerfile_path: ./Dockerfile
 working_directory: /tmp
-
 start_command: "node index.js"
