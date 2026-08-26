@@ -1,6 +1,6 @@
 FROM node:alpine3.22
 
-WORKDIR /
+WORKDIR /tmp
 
 COPY index.js index.html package.json ./
 
